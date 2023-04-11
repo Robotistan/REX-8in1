@@ -1,4 +1,4 @@
-## Details of ArmBot
+## ArmBot Detayları
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/112697142/229712005-29947455-4c3f-47db-8214-be6652d79131.gif" alt="animated" />
