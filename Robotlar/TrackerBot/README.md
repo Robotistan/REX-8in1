@@ -1,2 +1,4 @@
-## TrackerBot
-Thanks to the TrackerBot line follower sensor, it emits infrared lights and follows the black lines in the environment. We can autonomously enable TrackerBot to perform the tasks we want by using the mechanical features of the TrackerBot on the path we have created with lines. We can also change the color of the line TrackerBot follows by making changes to the code. In order to make this change, we can examine the values detected by the infrared sensor, determine the required value range for the color we want, and change these values in the code.
+## TrackerBot Detayları 
+TrackerBot çizgi izleyen sensör sayesinde kızılötesi ışıklar yayar ve ortamdaki siyah çizgileri takip eder. Çizgilerle oluşturduğumuz yol üzerinde TrackerBot'un mekanik özelliklerini kullanarak TrackerBot'un otonom olarak istediğimiz görevleri gerçekleştirmesini sağlayabiliriz. TrackerBot'un izlediği rengi de kodda değişiklik yaparak değiştirebiliriz. Bu değişikliği yapabilmek için çizgi izleyen sensör tarafından tespit edilen değerleri inceleyebilir, istediğimiz renk için gerekli değer aralığını belirleyebilir ve bu değerleri kod içerisinde değiştirebiliriz.
+
+
