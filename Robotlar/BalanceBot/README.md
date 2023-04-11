@@ -1,2 +1,4 @@
-## BalanceBot
-BalanceBot is a special robot that can stay in balance despite physical interventions thanks to the acceleration sensor on the REX board. You can use BalanceBot in situations where you need to carry objects in balance.
+## BalanceBot Detayları
+
+BalanceBot, REX kartı üzerinde bulunan ivme sensörü sayesinde fiziksel müdahalelere rağmen dengede kalabilen özel bir robottur. BalanceBot'u nesneleri dengede taşımanız gereken durumlarda kullanabilirsiniz.
+
