@@ -1,2 +1,4 @@
-## WiBot
-WiBot is a REX 8 in 1 robot that does not contain any extra sensors for autonomous driving and allows only remote control. After completing the installation of WiBot, you will not have any difficulties in the circuit setup. After connecting the 4 connector cables required for the motor to the REX board, you can perform tasks that require remote control by using the electronic features of the REX board and the mechanical features of the WiBot without adding any extra sensors to the circuit.
+## WiBot Detayları
+
+WiBot, otonom sürüş için herhangi bir ekstra sensör içermeyen ve yalnızca uzaktan kumandaya izin veren bir REX 8'i 1 arada robottur. WiBot kurulumunu tamamladıktan sonra devre kurulumunda herhangi bir zorluk yaşamazsınız. Motor için gerekli olan 4 adet konnektör kablosunu REX kartına bağladıktan sonra devreye herhangi bir ekstra sensör eklemeden REX kartının elektronik özelliklerini ve WiBot'un mekanik özelliklerini kullanarak uzaktan kontrol gerektiren görevleri gerçekleştirebilirsiniz.
+
