@@ -1,4 +1,4 @@
-# OmniBot
+# OmniBot Detayları
 
 OmniBot, özel omni tekerlekleri sayesinde herhangi bir dönüş hareketi yapmadan her noktaya kolay erişim sağlar. OmniBot kullanarak ulaşılması zor noktalara çok kolay bir şekilde ulaşabilirsiniz. Bu robot, ulaşılması zor noktalara ulaşmak için tasarlanmıştır.
 
