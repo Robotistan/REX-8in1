@@ -1,7 +1,7 @@
 ## Arduino IDE ile ESP32 Kullanımı
 ESP32, yüksek işlem gücü ve kullanışlı fonksiyonları nedeniyle birçok mikrodenetleyici ve geliştirme kartı arasında oldukça fazla tercih edilmektedir. ESP32'yi nasıl kullanacağımızı öğrenelim ve ESP32 kütüphanesini kuralım.
 
-## ESP32'yi Arduino IDE'ye Kurmak
+## ESP32'yi Arduino IDE'ye Kurulumu
 ESP32 kartını Arduino IDE'nize kurmak için aşağıdaki adımları izleyin.
 
 - Arduino IDE'de Dosya> Tercihler'e gidin
