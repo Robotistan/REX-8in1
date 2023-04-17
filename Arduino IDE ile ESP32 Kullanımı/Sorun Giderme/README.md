@@ -1,4 +1,4 @@
-## Troubleshooting
+## Sorun Giderme
 
 - ##### ESP32'nize yeni bir taslak yüklemeye çalışırsanız ve şu hata mesajını alırsanız "Önemli bir hata oluştu: ESP32'ye bağlanılamadı: Zaman aşımına uğradı... Bağlanıyor...". Bu, ESP32'nizin yanıp sönme/yükleme modunda olmadığı anlamına gelir.
 - ##### ESP32 kartınızdaki "BOOT" düğmesini basılı tutun.
