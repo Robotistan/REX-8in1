@@ -13,9 +13,9 @@ REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımları
 
 ## Repository İçeriği
 
-- ##### [Dokümanlar](https://github.com/ozerngg/REX-8in1/tree/main/Dok%C3%BCmanlar)
-   * [Çizgi İzleyen Sensör](https://github.com/ozerngg/REX-8in1/tree/main/Dok%C3%BCmanlar/%C3%87izgi%20%C4%B0zleyen%20Sens%C3%B6r)
-   * [REX Kartı](https://github.com/ozerngg/REX-8in1/tree/main/Dok%C3%BCmanlar/REX-Kart%C4%B1)
+- ##### [Komponentler](https://github.com/ozerngg/REX-8in1/tree/main/Komponentler)
+   * [Çizgi İzleyen Sensör](https://github.com/ozerngg/REX-8in1/tree/main/Komponentler/%C3%87izgi%20%C4%B0zleyen%20Sens%C3%B6r)
+   * [REX Kartı](https://github.com/ozerngg/REX-8in1/tree/main/Komponentler/REX-Kart%C4%B1)
 - ##### [Kurulum Kılavuzları](https://github.com/ozerngg/REX-8in1/tree/main/Kurulum%20K%C4%B1lavuzlar%C4%B1)
    * [ArmBot](https://github.com/ozerngg/REX-8in1/blob/main/Kurulum%20K%C4%B1lavuzlar%C4%B1/ArmBot.pdf)
    * [BalanceBot](https://github.com/ozerngg/REX-8in1/blob/main/Kurulum%20K%C4%B1lavuzlar%C4%B1/BalanceBot.pdf)
