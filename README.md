@@ -37,3 +37,7 @@ REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımları
    * [WiBot](https://github.com/ozerngg/REX-8in1/tree/main/Robotlar/WiBot)
 - ##### [Arduino IDE ile ESP32 Kullanımı](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1)
    * [Sorun Giderme](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1/Sorun%20Giderme)
+
+
+## Note
+Herhangi bir sorunuz var ise, [Teknik Forum](https://forum.robotistan.com/t/rex-serisi-yeni-versiyonu-hakkinda/4738?u=selimgayretli) üzerinden destek ekibimizle iletişime geçebilirsiniz.
