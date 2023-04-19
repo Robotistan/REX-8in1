@@ -4,11 +4,12 @@
   <img src="https://user-images.githubusercontent.com/112697142/229721526-375c7a74-edb2-4781-a401-df036e431216.gif" alt="animated" />
 </p>
 
-REX, Robotistan Ar-Ge ekibi tarafından geliştirilmiş bir deneysel robot kitidir. 8'i 1 arada robot kiti ESP32 altyapısını kullanan anakartı ile port bağlantı noktası, kablo karmaşası gibi devre kurulumlarında zorluk zorluklarını ortadan kaldırır. Bununla birlikte Arduino IDE, Thonny IDE ve MicroBlocks IDE ile programlamayı da sağlamaktadır.
+REX, Robotistan Ar-Ge ekibi tarafından geliştirilen eğitsel robot kitidir. 8in1 robot kiti, ESP32 altyapısını kullanan anakartı ile bağlantı noktası, kablo karışıklığı gibi devre kurulumunda karşılaşılan zorlukları ortadan kaldırır. Bununla berar Arduino IDE, Thonny IDE ve MicroBlocks IDE ile programlama alanında kullanıcıya büyük bir esneklik sağlamaktadır.
 
-REX kartı, 8'i 1 arada kiti içinde yer alan robotların mekanik ve elektronik kurulumlarını kolaylaştırmak için özel bir karttır. ESP32E işlemci kullanan bu kart üzerinde REX 8'i 1 arada sette kullanılan tüm muhafazalarda tek bir kablo ile kolayca ele geçirmek için dağıtanlar bulunuyor.
+REX kartı, 8 in 1 setindeki robotların mekanik ve elektronik kurulumlarını daha rahat yapmak için tasarlanmış özel bir karttır. ESP32E işlemcisini kullanan bu kart üzerinde, REX 8 in 1 setinde kullanılan bütün komponentleri tek bir kabloyla rahat bir şekilde devreye bağlayabilmek için konnektörler bulunmaktadır. 
 
-Bağlantı için port ve karta entegre 1 adet buzzer ve switch, REX kartı üzerinde 8 in 1 robotların kurulumunu ve devre tasarımlarını azaltma için 4 adet motor sürücü ve servo motor, her bir HC-SR04 kartı için 1 adet bağlantı çıkışı bulunmaktadır. HC-SR04, çizgi izleyen ve MPU6050 sensörleri, harici devre için 7V-12V pil. Bağlantı için port ve karta entegre 1 buzzer ve switch bulunmaktadır.
+REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımlarını daha rahat yapabilmek için 4 adet motor sürücü ve servo motor konnektörü, HC-SR04, IR ve MPU6050  sensörlerini bağlantılarını yapmak için 1’er adet bağlantı konnektörü, harici olarak devreye 12v bir pil bağlamak için bağlantı noktası ve karta entegre bir şekilde 1’er adet buzzer ve switch bulunmaktadır. 
+
 
 ## Repository İçeriği
 
