@@ -6,7 +6,8 @@
 
 
 
-Warning! Please do not connect an external battery if you are using 18650 batteries while using the card.
+#### Uyarı! Kartı kullanırken 18650 pil kullanıyorsanız lütfen harici pil bağlamayın.
+
 
 
 
