@@ -20,55 +20,55 @@
 
 ### Soketlere Bağlı Olan Pinler
 
-| Motor-A   | GPIO     | Notes                         |
+| Motor-A   | GPIO     | Not                           |
 | :-------- | :------- | :-------------------------    |
 | `M_A1`    | `15`     | **Gerekli**. API anahtarınız. |
 | `M_A2`    | `23`     | **Gerekli**. API anahtarınız. |
 
-| Motor-B   | GPIO     | Notes                         |
+| Motor-B   | GPIO     | Not                           |
 | :-------- | :------- | :-------------------------    |
 | `M_B1`    | `32`     | **Gerekli**. API anahtarınız. |
 | `M_B2`    | `33`     | **Gerekli**. API anahtarınız. |
 
-| Motor-C   | GPIO     | Notes                         |
+| Motor-C   | GPIO     | Not                           |
 | :-------- | :------- | :-------------------------    |
 | `M_c1`    | `4`      | **Gerekli**. API anahtarınız. |
 | `M_c2`    | `5`      | **Gerekli**. API anahtarınız. |
 
-| Motor-D   | GPIO     | Notes                         |
+| Motor-D   | GPIO     | Not                           |
 | :-------- | :------- | :-------------------------    |
 | `M_D1`    | `14`     | **Gerekli**. API anahtarınız. |
 | `M_D2`    | `27`     | **Gerekli**. API anahtarınız. |
 
 
-| Servo Pins   | GPIO     | Notes                         |
+| Servo Pins   | GPIO     | Not                           |
 | :--------    | :------- | :-------------------------    |
 | `Servo-1`    | `2`      | **Gerekli**. API anahtarınız. |
 | `Servo-2`    | `26`     | **Gerekli**. API anahtarınız. |
 | `Servo-3`    | `18`     | **Gerekli**. API anahtarınız. |
 | `Servo-4`    | `19`     | **Gerekli**. API anahtarınız. |
 
-| IR Sensor | GPIO     |       Notes                   |
+| IR Sensor | GPIO     |       Not                     |
 | :-------- | :------- | :-------------------------    |
 | `TX`      | `1`      | **Gerekli**. API anahtarınız. |
 | `RX`      | `3`      | **Gerekli**. API anahtarınız. |
 
-| Ulstrasonic Sensor   | GPIO      |       Notes                   |
+| Ulstrasonic Sensor   | GPIO      |       Not                     |
 | :--------            | :-------  | :-------------------------    |
 | `TRIG`               | `17`      | **Gerekli**. API anahtarınız. |
 | `ECHO`               | `16`      | **Gerekli**. API anahtarınız. |
 
-| I2C        | GPIO      |       Notes                   |
+| I2C        | GPIO      |       Not                     |
 | :--------  | :-------  | :-------------------------    |
-| `SCL`      | `22`      | **Connected**. Yellow Cable. |
-| `SDA`      | `21`      | **Connected**. ''White Cable.''  |
+| `SCL`      | `22`      | **Bağlı** Sarı Kablo          |
+| `SDA`      | `21`      | **Bağlı** ''Beyaz Kablo''     |
 
-| Buzzer     | GPIO      |       Notes                   |
+| Buzzer     | GPIO      |       Not                     |
 | :--------  | :-------  | :-------------------------    |
 | `Buzzer`   | `25`      | **Gerekli**. API anahtarınız. |
 
-| MPU6050    | GPIO      |       Notes                  |
+| MPU6050    | GPIO      |       Not                    |
 | :--------  | :-------  | :-------------------------   |
-| `SCL`      | `22`      | **Connected**. Yellow Cable. |
-| `SDA`      | `21`      | **Connected**. White Cable.  |
-| `INT`      | `13`      | **Connected**. Yellow Cable. |
+| `SCL`      | `22`      | **Bağlı** Sarı Kablo         |
+| `SDA`      | `21`      | **Bağlı** Beyaz Kablo        |
+| `INT`      | `13`      | **Bağlı** Sarı Kablo         |
