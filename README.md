@@ -39,5 +39,9 @@ REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımları
    * [Sorun Giderme](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1/Sorun%20Giderme)
 
 
+<p align="center">
+  <img src="https://github.com/Robotistan/8in1/assets/112697142/e35969e3-77d2-4c9b-87c0-75f66865af02" alt="animated" />
+</p>
+
 ## Note
 Herhangi bir sorunuz var ise, [Teknik Forum](https://forum.robotistan.com/t/rex-serisi-yeni-versiyonu-hakkinda/4738?u=selimgayretli) üzerinden destek ekibimizle iletişime geçebilirsiniz.
