@@ -14,9 +14,9 @@
 
 
 ### Çizgi sensörü nasıl kullanılır?
-Çizgi izleyen sensörün nasıl çalıştığını biraz daha biliyorsunuz, şimdi onu nasıl kullanacağınızı öğrenmelisiniz. Çizgi izleyici sensöründe ayrıca, kullanmakta olduğunuz Raspberry Pi'ye bağlamanız gereken bir dizi pin bulunur:
+Çizgi izleyen sensörün nasıl çalıştığını biraz daha biliyorsunuz, şimdi onu nasıl kullanacağınızı öğrenmelisiniz.
 
 - Cihaza güç sağlamak için VCC'nin 3,3 ile 5V arasında bir gerilime bağlanması gerekir.
 - GND, devreyi tamamlamak için gerekli olan topraklama pinidir.
-- AO analog çıkıştır (bu pin Raspberry Pi ile çalışmaz.).
-- DO dijital çıkış pinidir (bu pin Raspberry Pi ile çalışacaktır.).
+- AO analog çıkıştır 
+- DO dijital çıkış pinidir 
