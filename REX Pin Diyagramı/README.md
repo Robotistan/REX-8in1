@@ -8,7 +8,7 @@
 360° Preview
 </p>
 
-# ESP32 WROOM 32E Pinout 
+# ESP32 WROOM 32E Pin Diyagramı
 
 
 #### Warning! Please do not connect an external battery if you are using 18650 batteries while using the card.
