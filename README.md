@@ -38,22 +38,15 @@ REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımları
 - ##### [Arduino IDE ile ESP32 Kullanımı](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1)
    * [Sorun Giderme](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1/Sorun%20Giderme)
 
-## License
+## Lisans
 
 * Apache License
 
-All original source code in this repository is Copyright (C) 2022 PicoBricks/Robotistan. This source code is licensed under the Apache License 2.0 as described in the file LICENSE.
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Bu repodaki tüm orijinal kaynak kodları Telif Hakkı (C) 2022 PicoBricks/Robotistan'a aittir. Bu kaynak kodu, LICENSE dosyasında açıklandığı gibi Apache License 2.0 altında lisanslanmıştır. Apache Lisansı, Sürüm 2.0 ("Lisans"); bu dosyayı Lisans ile uyum dışında kullanamazsınız. Lisansın bir kopyasını şu adresten edinebilirsiniz:
 
     http://www.apache.org/licenses/LICENSE-2.0
 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+Yürürlükteki yasa gerektirmedikçe veya yazılı olarak kabul edilmedikçe, Lisans kapsamında dağıtılan yazılım, açık veya zımni HİÇBİR TÜRDE GARANTİ VEYA KOŞUL OLMAKSIZIN "OLDUĞU GİBİ" ESASINDA dağıtılır. Lisans kapsamındaki izinleri ve sınırlamaları yöneten belirli dil için Lisansa bakın.
 
 <p align="center">
   <img src="https://github.com/Robotistan/8in1/assets/112697142/e35969e3-77d2-4c9b-87c0-75f66865af02" alt="animated" />
