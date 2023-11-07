@@ -38,6 +38,15 @@ REX kartının üzerinde 8 in 1 robotlarının kurulumunu ve devre tasarımları
 - ##### [Arduino IDE ile ESP32 Kullanımı](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1)
    * [Sorun Giderme](https://github.com/ozerngg/REX-8in1/tree/main/Arduino%20IDE%20ile%20ESP32%20Kullan%C4%B1m%C4%B1/Sorun%20Giderme)
 
+## Lisans
+
+* Apache License
+
+Bu repodaki tüm orijinal kaynak kodları Telif Hakkı (C) 2022 PicoBricks/Robotistan'a aittir. Bu kaynak kodu, LICENSE dosyasında açıklandığı gibi Apache License 2.0 altında lisanslanmıştır. Apache Lisansı, Sürüm 2.0 ("Lisans"); bu dosyayı Lisans ile uyum dışında kullanamazsınız. Lisansın bir kopyasını şu adresten edinebilirsiniz:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Yürürlükteki yasa gerektirmedikçe veya yazılı olarak kabul edilmedikçe, Lisans kapsamında dağıtılan yazılım, açık veya zımni HİÇBİR TÜRDE GARANTİ VEYA KOŞUL OLMAKSIZIN "OLDUĞU GİBİ" ESASINDA dağıtılır. Lisans kapsamındaki izinleri ve sınırlamaları yöneten belirli dil için Lisansa bakın.
 
 <p align="center">
   <img src="https://github.com/Robotistan/8in1/assets/112697142/e35969e3-77d2-4c9b-87c0-75f66865af02" alt="animated" />
