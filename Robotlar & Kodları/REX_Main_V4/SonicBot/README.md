@@ -1,4 +1,4 @@
-## SonicBot
+# SonicBot
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/112697142/231760485-0ad956d3-b7c2-4a38-aebf-1087e5909892.gif" alt="animated" />
