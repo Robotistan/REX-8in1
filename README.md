@@ -41,67 +41,54 @@
 | [![Resim 1](https://user-images.githubusercontent.com/112697142/231176647-606db0a1-85d6-4fbe-8dca-565c89164e5e.gif)](https://github.com/Robotistan/REX-8in1-V2/tree/main/Robots%20%26%20Code/TrackerBot)         | [![Resim 8](https://user-images.githubusercontent.com/112697142/232056329-d8ee24b2-94bb-4732-8da0-c03921780872.gif)](https://github.com/Robotistan/REX-8in1-V2/tree/main/Robots%20%26%20Code/WiBot)               |
 | [Tracker Bot](https://github.com/Robotistan/REX-8in1-V2/tree/main/Robots%20%26%20Code/TrackerBot)                                                                                                                | [Wi Bot](https://github.com/Robotistan/REX-8in1-V2/tree/main/Robots%20%26%20Code/WiBot)                                                                                                                           |
 
-<h1 align="center">Ask Me Anything! 🎉</h1>
+<h1 align="center">Bana Her Şeyi Sor! 🎉</h1>
 
 <div align="center">
   <img src="https://github.com/Robotistan/REX-8in1-V2/assets/78815495/98dc60f1-6c73-4d80-9a4e-7f2655d0929b" alt="Logo" width="400">
 </div>
 
 <p align="center">
-  <b>Welcome to the Best GitHub File! This file is open for you to ask any kind of questions. Feel free to ask your questions!</b>
+  <b>GitHub Dosyasına Hoş Geldiniz! Bu dosya her türlü soruyu sormanız için açıktır. Sorularınızı sormaktan çekinmeyin!</b>
   <br>
-  <sub>I'm looking forward to your excellent questions and inspiring answers!</sub>
+  <sub>Mükemmel sorularınızı ve ilham verici cevaplarınızı sabırsızlıkla bekliyorum!</sub>
 </p>
 
 <br>
 
-## 🚀 How Can I Ask a Question?
+## 🚀 Sorumu Nasıl Sorabilirim?
 
-To ask a question, follow these steps:
+Soru sormak için şu adımları izleyin:
 
-1. Take a general look at this project, as your question might already be answered.
-2. Go to the [Issues](https://github.com/Robotistan/REX-8in1-V2/issues) section and click on the "New Issue" button.
-3. Provide a descriptive title and details for your question.
-4. If applicable, add tags to make it easier for others to find your question.
-5. Finally, click on the "Submit New Issue" button to post your question.
+1. Bu projeye genel bir bakış atın, çünkü sorunuzun cevabı zaten mevcut olabilir.
+2. [Issues](https://github.com/Robotistan/REX-8in1-V2/issues) bölümüne gidin ve "Yeni Sorun" butonuna tıklayın.
+3. Sorunuz için açıklayıcı bir başlık ve ayrıntılar sağlayın.
+4. Uygunsa, başkalarının sorunuzu daha kolay bulmasını sağlamak için etiketler ekleyin.
+5. Son olarak sorunuzu göndermek için "Yeni Sorun Gönder" butonuna tıklayın.
 
-## 🤖 What Type of Questions Can I Ask?
+## 🤖 Hangi Tür Soruları Sorabilirim?
 
-This repository is open for asking any type of questions related to the project. Here are some examples:
+- Bir şey nasıl yapılır?
+- Projeye nasıl katkıda bulunabilirim?
+- Bir hata buldum, nasıl bildirebilirim?
+- Yeni bir özellik önermek istiyorum, ne yapmalıyım?
 
-- How to do something?
-- How can I contribute to the project?
-- I found a bug, how can I report it?
-- I want to propose a new feature, what should I do?
+## Lisans
 
-If you have any further questions or need assistance, feel free to reach out to us via email at: <a href="mehmetali.dag@robotistan.com">💌 mehmetali.dag@robotistan.com</a>
-
-## License
-
-* Apache License
-
-All original source code in this repository is Copyright (C) 2022 REX/Robotistan. This source code is licensed under the Apache License 2.0 as described in the file LICENSE.
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+* Apache Lisans
+  
+Bu depoda bulunan tüm orijinal kaynak kodları Telif Hakkı (C) 2022 REX/Robotistan'dır. Bu kaynak kodu, LICENSE dosyasında açıklandığı gibi Apache Lisansı 2.0 kapsamında lisanslanmıştır.
+Apache Lisansı, Sürüm 2.0 ("Lisans") kapsamında lisanslanmıştır;
+Lisansa uygun olmadıkça bu dosyayı kullanamazsınız.
+Lisansın bir kopyasını şu adresten edinebilirsiniz:
 
     http://www.apache.org/licenses/LICENSE-2.0
 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+Uygulanabilir yasa tarafından gerekmediği veya yazılı olarak kabul edilmediği sürece, Lisans kapsamında dağıtılan yazılım, açık veya zımni herhangi bir GARANTİ VEYA KOŞUL OLMADAN "OLDUĞU GİBİ" TEMELİNDE dağıtılır.
+Lisans kapsamındaki izinleri ve sınırlamaları yöneten özel dil için Lisansa bakın.
 
 <p align="center">
   <img src="https://github.com/Robotistan/8in1/assets/112697142/e35969e3-77d2-4c9b-87c0-75f66865af02" alt="animated" />
 </p>
 
-## Authors ve Appreciation
-For Design and Development of REX GitHuB Page by;
-- [@ozerngg](https://github.com/ozerngg) 
-- [@mehmetalidag97](https://github.com/mehmetalidag97) 
-
-
 ## Note
-If you have any questions, please contact technical support on our [Robotistan Community](https://community.robotistan.com/).
+Herhangi bir sorunuz varsa lütfen teknik destekle iletişime geçin. [Robotistan Community](https://community.robotistan.com/).
