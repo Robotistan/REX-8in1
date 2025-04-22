@@ -12,13 +12,13 @@
   <img src="https://github.com/Robotistan/REX-8in1-V2/assets/78815495/597b91c8-1b66-411f-96be-2777d25d00fa" alt="Logo" width="800">
 </div>
 
-## Repository Contents
+## Depo İçeriği
 
-- ##### [Components](https://github.com/Robotistan/8in1/tree/main/Components)
-   * [REX Pinout/Main](https://github.com/Robotistan/REX-8in1/tree/main/REX%20Pin%20Diyagram%C4%B1)
+- ##### [Komponentler](https://github.com/Robotistan/8in1/tree/main/Components)
+   * [REX Pin Diyagramı](https://github.com/Robotistan/REX-8in1/tree/main/REX%20Pin%20Diyagram%C4%B1)
    * [E-Book](https://github.com/Robotistan/REX-8in1/blob/main/Kurulum%20K%C4%B1lavuzlar%C4%B1/REX%20H%C4%B1zl%C4%B1%20Ba%C5%9Flang%C4%B1%C3%A7%20K%C4%B1lavuzu.pdf)
-- #### [Installation Manuals](https://github.com/Robotistan/REX-8in1/tree/main/Kurulum%20K%C4%B1lavuzlar%C4%B1)
-- ##### [Robots](https://github.com/Robotistan/8in1/tree/main/Robots) 🤖
+- #### [Kurulum Kılavuzları](https://github.com/Robotistan/REX-8in1/tree/main/Kurulum%20K%C4%B1lavuzlar%C4%B1)
+- ##### [Robotlar](https://github.com/Robotistan/8in1/tree/main/Robots) 🤖
    * [ArmBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/Armbot) 
    * [BalanceBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/BalanceBot)
    * [OmniBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/OmniBot)
@@ -27,7 +27,7 @@
    * [SumoBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/SumoBot)
    * [TrackerBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/TrackerBot)
    * [WiBot](https://github.com/Robotistan/REX-8in1/tree/main/Robotlar%20%26%20Kodlar%C4%B1/REX_Main_V5/WiBot)
-- ##### [Usage of ESP32 with Arduino IDE](https://github.com/Robotistan/8in1/tree/main/Usage%20of%20ESP32%20With%20Arduino%20IDE)
+- ##### [Arduino IDE ile ESP32 Kullanımı](https://github.com/Robotistan/8in1/tree/main/Usage%20of%20ESP32%20With%20Arduino%20IDE)
    * [Troubleshooting](https://github.com/Robotistan/8in1/tree/main/Usage%20of%20ESP32%20With%20Arduino%20IDE/Troubleshooting)
 
 |                        Click on the 🤖 robot images to jump to the robot's page! 🔍🚀                                                                                                                           |                                     Enjoy exploring the robots! 🤩🔎🤖🌟                                                                                                                                        |
