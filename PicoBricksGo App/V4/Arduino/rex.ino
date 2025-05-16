@@ -82,39 +82,57 @@ int yValue = 0;
 
 // Belirtilen yönde ve hızda robotu hareket ettiren fonksiyon
 void move(int direction, int speed){
-  duty = constrain(speed, 150, 255);  // Hızı sınırla
+  duty = constrain(speed, 150, 255); 
 
-  // Yöne göre motorlara sinyal gönder
-  if (direction == FWD){ // İleri
+  if (direction == FWD){
     analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
     analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
     analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);
     analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);
   }
-  else if (direction == BWD){ // Geri
+  else if (direction == BWD){
     analogWrite(MotorA1, LOW); analogWrite(MotorA2, duty);
     analogWrite(MotorB1, LOW); analogWrite(MotorB2, duty);
     analogWrite(MotorC1, LOW); analogWrite(MotorC2, duty);
     analogWrite(MotorD1, LOW); analogWrite(MotorD2, duty);
   }
-  else if (direction == LEFT){ // Sola dönüş
+  else if (direction == LEFT){
     analogWrite(MotorA1, LOW);  analogWrite(MotorA2, duty);
     analogWrite(MotorB1, LOW);  analogWrite(MotorB2, duty);
     analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);
     analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);
   }
-  else if (direction == RIGHT){ // Sağa dönüş
+  else if (direction == RIGHT){
     analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
     analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
     analogWrite(MotorC1, LOW);  analogWrite(MotorC2, duty);
     analogWrite(MotorD1, LOW);  analogWrite(MotorD2, duty);
   }
-  // Diagonal ve diğer yönler için motor kombinasyonları tanımlanır
-  else if (direction == FWD_RIGHT){ ... }
-  else if (direction == FWD_LEFT){ ... }
-  else if (direction == BWD_RIGHT){ ... }
-  else if (direction == BWD_LEFT){ ... }
-  else { // STOP
+  else if (direction == FWD_RIGHT){
+    analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);  
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, duty);
+  }
+  else if (direction == FWD_LEFT){
+    analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, LOW);  analogWrite(MotorB2, duty);
+    analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);
+    analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);  
+  }
+  else if (direction == BWD_RIGHT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, duty);
+    analogWrite(MotorB1, LOW);  analogWrite(MotorB2, duty);
+    analogWrite(MotorC1, LOW);  analogWrite(MotorC2, duty);  
+    analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);
+  }
+  else if (direction == BWD_LEFT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, duty);
+    analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, LOW);  analogWrite(MotorC2, duty);
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, duty); 
+  }
+  else{ //STOP
     analogWrite(MotorA1, LOW); analogWrite(MotorA2, LOW);
     analogWrite(MotorB1, LOW); analogWrite(MotorB2, LOW);
     analogWrite(MotorC1, LOW); analogWrite(MotorC2, LOW);
@@ -123,10 +141,73 @@ void move(int direction, int speed){
 }
 
 // omni_move() fonksiyonu omni tekerlekli botlar için aynı mantıkla çalışır
+void omni_move(int direction, int speed){
+  duty = constrain(speed, 150, 255); 
 
+
+  if (direction == FWD){
+    analogWrite(MotorA1, LOW); analogWrite(MotorA2, duty);
+    analogWrite(MotorB1, LOW); analogWrite(MotorB2, duty);
+    analogWrite(MotorC1, LOW); analogWrite(MotorC2, duty);
+    analogWrite(MotorD1, LOW); analogWrite(MotorD2, duty);
+  }
+  else if (direction == BWD){
+    analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);
+    analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);
+  }
+  else if (direction == LEFT){
+    analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, LOW);  analogWrite(MotorB2, duty);
+    analogWrite(MotorC1, LOW);  analogWrite(MotorC2, duty);
+    analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW);
+  }
+  else if (direction == RIGHT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, duty);
+    analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, duty);
+  }
+  else if (direction == FWD_RIGHT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, duty);
+    analogWrite(MotorB1, LOW);  analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, LOW);  analogWrite(MotorC2, LOW);  
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, duty);
+  }
+  else if (direction == FWD_LEFT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, LOW); analogWrite(MotorB2, duty);
+    analogWrite(MotorC1, LOW); analogWrite(MotorC2, duty);
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, LOW);  
+  }
+  else if (direction == BWD_RIGHT){
+    analogWrite(MotorA1, LOW);  analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, duty); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, duty); analogWrite(MotorC2, LOW);  
+    analogWrite(MotorD1, LOW);  analogWrite(MotorD2, LOW);
+  }
+  else if (direction == BWD_LEFT){
+    analogWrite(MotorA1, duty); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, LOW);  analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, LOW);  analogWrite(MotorC2, LOW);
+    analogWrite(MotorD1, duty); analogWrite(MotorD2, LOW); 
+  }
+  else{ //STOP
+    analogWrite(MotorA1, LOW); analogWrite(MotorA2, LOW);
+    analogWrite(MotorB1, LOW); analogWrite(MotorB2, LOW);
+    analogWrite(MotorC1, LOW); analogWrite(MotorC2, LOW);
+    analogWrite(MotorD1, LOW); analogWrite(MotorD2, LOW);
+  }
+}
 // Kısa bir sesli uyarı verir
 void rex_horn() {
-  tone(horn, 262, NOTE_DURATION);
+    for(int i=0; i<50; i++){
+        digitalWrite(horn, HIGH);
+        delay(2);
+        digitalWrite(horn, LOW);
+        delay(2);
+    }
 }
 
 // BLE bağlantı olayları için geri çağırma sınıfı
@@ -142,28 +223,334 @@ class MyServerCallbacks: public BLEServerCallbacks {
 
 // BLE karakteristik verisi yazıldığında çağrılan sınıf
 class MyCallbacks: public BLECharacteristicCallbacks {
-    void onWrite(BLECharacteristic *pCharacteristic) {
-        const uint8_t* value = pCharacteristic->getData();
-        size_t length = pCharacteristic->getLength();
+      void onWrite(BLECharacteristic *pCharacteristic) {
+        const uint8_t* value = pCharacteristic->getData();  // Get the value written to the characteristic
+        size_t length = pCharacteristic->getLength(); 
 
-        if (length > 0) {
-            for (i = 0; i < length; i++) buffer[i] = value[i];
+      // Process the value if it has been received
+      if (length > 0) {
+        for (i = 0; i < length; i++){
+          buffer[i] = value[i];
+          //Serial.println(buffer[i]);
+          //delay(100);
+        }
 
-            if(buffer[0] == 75){  // Komut başlangıcı (örneğin 0x4B = 'K')
-
-                // buffer[1] farklı bot türlerini temsil eder
-                if(buffer[1] == 1){ /* WiBot veya Rover */ }
-                else if(buffer[1] == 2){ /* OmniBot */ }
-                else if(buffer[1] == 3){ /* ArmBot */ }
-                else if(buffer[1] == 5){ /* Piano modu */ }
-                else {
-                    Serial.println("Wrong data");
-                }
+        if(buffer[0] == 75){  // Header byte for Rex commands
+          if(buffer[1] == 1){ // Wibot & Roverbot
+            if (buffer[2] == 1){
+              control = joystick;
+            }
+            else{
+              control = buttons;
             }
 
-            // Buffer'ı sıfırla
-            for(i=0; i<5; i++) buffer[i] = 0;
-        }
+            if(buffer[2] == 2){  //Horn
+              rex_horn();
+            }
+
+            if(control == buttons){ //Directional Buttons
+              if(buffer[2] == 99) {  //Stop
+                move(STOP,0);
+              }
+              if(buffer[2] == 3) {  //Forward movement
+                move(FWD,255);
+              }
+              if(buffer[2] == 4) {  //Forward-right diagonal
+                move(FWD_RIGHT,150);
+              }
+              if(buffer[2] == 5) {  //Right turn
+                move(RIGHT,255);
+              }
+              if(buffer[2] == 6) {  //Backward-right diagonal
+                move(BWD_RIGHT,150);
+              }
+              if(buffer[2] == 7) {  //Backward movement
+                move(BWD,255);
+              }
+              if(buffer[2] == 8) {  //Backward-left diagonal
+                move(BWD_LEFT,150);
+              }
+              if(buffer[2] == 9) {  //Left turn
+                move(LEFT,255);
+              }
+              if(buffer[2] == 10) {  //Forward-left diagonal
+                move(FWD_LEFT,150);
+              }
+            }
+            else{ //Joystick
+              xValue = buffer[3]; //Joystick X-axis
+              yValue = buffer[4]; //Joystick Y-axis
+
+              ySpeed = map(abs(yValue - centerY), 0, 127, 0, 255);  //Map Y-axis for forward/backward speed
+              xSpeed = map(abs(xValue - centerX), 0, 127, 0, 255);  //Map X-axis for turning speed
+
+              if (xValue == 0 && yValue == 0) {   //Check if joystick is close to the center for stopping
+                move(STOP,0);
+              }
+              else if (yValue < centerY - deadZone && abs(xValue - centerX) <= deadZone) {   //Forward movement
+                move(FWD, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && abs(xValue - centerX) <= deadZone) {   //Backward movement
+                move(BWD, ySpeed);
+              }
+              else if (xValue < centerX - deadZone && abs(yValue - centerY) <= deadZone) {   //Left turn
+                move(LEFT, xSpeed);
+              }
+              else if (xValue > centerX + deadZone && abs(yValue - centerY) <= deadZone) {   //Right turn
+                move(RIGHT, xSpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue > centerX + deadZone) {  //Forward-right diagonal
+                move(FWD_RIGHT, ySpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue < centerX - deadZone) {  //Forward-left diagonal
+                move(FWD_LEFT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue > centerX + deadZone) {  //Backward-right diagonal
+                move(BWD_RIGHT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue < centerX - deadZone) {  //Backward-left diagonal
+                move(BWD_LEFT, ySpeed);
+              }
+              else{
+                move(STOP,0);
+              }
+            }
+          }
+          else if(buffer[1] == 2){ //Omnibot
+            if (buffer[2] == 1){
+              control = joystick;
+            }
+            else{
+              control = buttons;
+            }
+
+            if(buffer[2] == 2){  //Horn
+              rex_horn();
+            }
+
+            if(control == buttons){ //Directional Buttons
+              if(buffer[2] == 99) {  //Stop
+                omni_move(STOP,0);
+              }
+              if(buffer[2] == 3) {  //Forward movement
+                omni_move(FWD,255);
+              }
+              if(buffer[2] == 4) {  //Forward-right diagonal
+                omni_move(FWD_RIGHT,255);
+              }
+              if(buffer[2] == 5) {  //Right turn
+                omni_move(RIGHT,255);
+              }
+              if(buffer[2] == 6) {  //Backward-right diagonal
+                omni_move(BWD_RIGHT,255);
+              }
+              if(buffer[2] == 7) {  //Backward movement
+                omni_move(BWD,255);
+              }
+              if(buffer[2] == 8) {  //Backward-left diagonal
+                omni_move(BWD_LEFT,255);
+              }
+              if(buffer[2] == 9) {  //Left turn
+                omni_move(LEFT,255);
+              }
+              if(buffer[2] == 10) {  //Forward-left diagonal
+                omni_move(FWD_LEFT,255);
+              }
+            }
+            else{ //Joystick
+              xValue = buffer[3]; //Joystick X-axis
+              yValue = buffer[4]; //Joystick Y-axis
+
+              ySpeed = map(abs(yValue - centerY), 0, 127, 0, 255);  //Map Y-axis for forward/backward speed
+              xSpeed = map(abs(xValue - centerX), 0, 127, 0, 255);  //Map X-axis for turning speed
+
+              if (xValue == 0 && yValue == 0) {   //Check if joystick is close to the center for stopping
+                omni_move(STOP,0);
+              }
+              else if (yValue < centerY - deadZone && abs(xValue - centerX) <= deadZone) {   //Forward movement
+                omni_move(FWD, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && abs(xValue - centerX) <= deadZone) {   //Backward movement
+                omni_move(BWD, ySpeed);
+              }
+              else if (xValue < centerX - deadZone && abs(yValue - centerY) <= deadZone) {   //Left turn
+                omni_move(LEFT, xSpeed);
+              }
+              else if (xValue > centerX + deadZone && abs(yValue - centerY) <= deadZone) {   //Right turn
+                omni_move(RIGHT, xSpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue > centerX + deadZone) {  //Forward-right diagonal
+                omni_move(FWD_RIGHT, ySpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue < centerX - deadZone) {  //Forward-left diagonal
+                omni_move(FWD_LEFT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue > centerX + deadZone) {  //Backward-right diagonal
+                omni_move(BWD_RIGHT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue < centerX - deadZone) {  //Backward-left diagonal
+                omni_move(BWD_LEFT, ySpeed);
+              }
+              else{
+                omni_move(STOP,0);
+              }
+            }
+          }
+          else if(buffer[1] == 3){ //Armbot
+            if(buffer[2] == 1){  //Servo Motors Reset
+              position1 = 90;
+              position2 = 90;
+              position3 = 90;
+              position4 = 90;
+
+              Servo1.write(position1);
+              Servo2.write(position2);
+              Servo3.write(position3);
+              Servo4.write(position4);
+            }
+            else if(buffer[2] == 2){  //Horn
+              rex_horn();
+            }
+            else if(buffer[2] == 3){ //DC Motors Control
+              xValue = buffer[3]; // Joystick X-axis
+              yValue = buffer[4]; // Joystick Y-axis
+
+              ySpeed = map(abs(yValue - centerY), 0, 127, 0, 255);  // Map Y-axis for forward/backward speed
+              xSpeed = map(abs(xValue - centerX), 0, 127, 0, 255);  // Map X-axis for turning speed
+
+              if (xValue == 0 && yValue == 0) {   // Check if joystick is close to the center for stopping
+                move(STOP,0);
+              }
+              else if (yValue < centerY - deadZone && abs(xValue - centerX) <= deadZone) {   // Forward movement
+                move(FWD, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && abs(xValue - centerX) <= deadZone) {   // Backward movement
+                move(BWD, ySpeed);
+              }
+              else if (xValue < centerX - deadZone && abs(yValue - centerY) <= deadZone) {   // Left turn
+                move(LEFT, xSpeed);
+              }
+              else if (xValue > centerX + deadZone && abs(yValue - centerY) <= deadZone) {   // Right turn
+                move(RIGHT, xSpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue > centerX + deadZone) {  // Forward-right diagonal
+                move(FWD_RIGHT, ySpeed);
+              }
+              else if (yValue < centerY - deadZone && xValue < centerX - deadZone) {  // Forward-left diagonal
+                move(FWD_LEFT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue > centerX + deadZone) {  // Backward-right diagonal
+                move(BWD_RIGHT, ySpeed);
+              }
+              else if (yValue > centerY + deadZone && xValue < centerX - deadZone) {  // Backward-left diagonal
+                move(BWD_LEFT, ySpeed);
+              }
+              else{
+                move(STOP,0);
+              }
+            }
+            else if(buffer[2] == 4){  //Servo Motors Control
+              if(buffer[3] == 1){ //Servo 1 Left
+                if (position1 > 40) {
+                  position1 = position1 - 5;
+                  Servo1.write(position1);
+                }
+              }
+              if(buffer[3] == 2){   //Servo 1 Right
+                if (position1 < 140) {
+                  position1 = position1 + 5;
+                  Servo1.write(position1);
+                }
+              }
+              if(buffer[3] == 3){   //Servo 2 Up
+                if (position2 < 140) {
+                  position2 = position2 + 5;
+                  Servo2.write(position2);
+                }
+              }
+              if(buffer[3] == 4){   //Servo 2 Down
+                if (position2 > 0) {
+                  position2 = position2 - 5;
+                  Servo2.write(position2);
+                }
+              }
+              if(buffer[3] == 5){   //Servo 3 Down
+                if (position3 > 30) {
+                  position3 = position3 - 5;
+                  Servo3.write(position3);
+                }
+              }
+              if(buffer[3] == 6){   //Servo 3 Up
+                if (position3 < 150) {
+                  position3 = position3 + 5;
+                  Servo3.write(position3);
+                }
+              }
+              if(buffer[3] == 7){   //Servo 4 Open
+                if (position4 > 90) {
+                  position4 = position4 - 5;
+                  Servo4.write(position4);
+                }
+              }
+              if(buffer[3] == 8){   //Servo 4 Close
+                if (position4 < 160) {
+                  position4 = position4 + 5;
+                  Servo4.write(position4);
+                }
+              }
+            }
+          }
+          else if(buffer[1] == 5){ //Piano
+            if(buffer[2] == 1){ //C1
+              tone(horn, NOTE_C, NOTE_DURATION);
+            }
+            else if(buffer[2] == 2){ //D
+              tone(horn, NOTE_D, NOTE_DURATION);
+            }
+            else if(buffer[2] == 3){ //E
+              tone(horn, NOTE_E, NOTE_DURATION);
+            }
+            else if(buffer[2] == 4){ //F
+              tone(horn, NOTE_F, NOTE_DURATION);
+            }
+            else if(buffer[2] == 5){ //G
+              tone(horn, NOTE_G, NOTE_DURATION);
+            }
+            else if(buffer[2] == 6){ //A
+              tone(horn, NOTE_A, NOTE_DURATION);
+            }
+            else if(buffer[2] == 7){ //B
+              tone(horn, NOTE_B, NOTE_DURATION);
+            }
+            else if(buffer[2] == 8){ //C2
+              tone(horn, NOTE_C2, NOTE_DURATION);
+            }
+            else if(buffer[2] == 9){ //CS1
+              tone(horn, NOTE_CS, NOTE_DURATION);
+            }
+            else if(buffer[2] == 10){ //DS1
+              tone(horn, NOTE_DS, NOTE_DURATION);
+            }
+            else if(buffer[2] == 11){ //FS1
+              tone(horn, NOTE_FS, NOTE_DURATION);
+            }
+            else if(buffer[2] == 12){ //GS1
+              tone(horn, NOTE_GS, NOTE_DURATION);
+            }
+            else if(buffer[2] == 13){ //AS1
+              tone(horn, NOTE_AS, NOTE_DURATION);
+            }
+            delay(5);
+            noTone(horn);
+          }
+          else{
+            Serial.println("Wrong data");
+          }
+      }
+      //Clear Buffer
+      for(i=0; i<5; i++)
+        buffer[i] = 0;
+      }
     }
 };
 
